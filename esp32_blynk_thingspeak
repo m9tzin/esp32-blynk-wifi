@@ -15,13 +15,13 @@ int gateEnd = 120;
 int gateOpenTime = 200;
 int active=0;
 
-unsigned long channelID = 2024639;
-const char* WriteAPIKey ="IUKFG4W5PD8RYXC6";
+unsigned long channelID = YOUR THINGSPEAK CHANNELID;
+const char* WriteAPIKey ="YOUR THINGSPEAK API KEY";
 WiFiClient client;
 
-char auth[] = "Y3W15vPCDPyv9mIVKRbQc-KB-eNSytxS";
-char ssid[] = "Phone";
-char password[] = "123321123";
+char auth[] = "YOUR CHAR AUTH (BLYNK)";
+char ssid[] = "YOUR WIFI SSID";
+char password[] = "YOUR WIFI PASSWORD";
 
 
 BLYNK_WRITE(V0)
