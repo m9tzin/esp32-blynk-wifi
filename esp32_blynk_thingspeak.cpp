@@ -29,7 +29,7 @@ BLYNK_WRITE(V0)
 {
   delay(800);
   active=1;
-  lerDados();	
+  readData();	
   ThingSpeak.writeFields(channelID,WriteAPIKey);
   
   petGate.write(gateEnd);
@@ -44,7 +44,7 @@ BLYNK_WRITE(V1)
   {
     delay(800);
     active=2;
-    lerDados();	
+    readData();	
     ThingSpeak.writeFields(channelID,WriteAPIKey);
     
     petGate.write(gateEnd);
