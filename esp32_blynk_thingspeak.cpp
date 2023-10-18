@@ -15,6 +15,7 @@ int gateEnd = 120;
 int gateOpenTime = 200;
 int active=0;
 
+/* Complete with your data, Channel ID, API Key */
 unsigned long channelID = YOUR THINGSPEAK CHANNELID;
 const char* WriteAPIKey ="YOUR THINGSPEAK API KEY";
 WiFiClient client;
@@ -78,9 +79,9 @@ void loop()
 {
   Blynk.run();
 }
-void lerDados(){
+void readData(){
 
-  /Envio de dados ThingSpeak./
+  /*Thingspeak response*/
   ThingSpeak.setField(1, active);
   
 }
