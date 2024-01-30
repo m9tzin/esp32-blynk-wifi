@@ -8,6 +8,7 @@
 #include <BlynkSimpleEsp32.h>
 #include <Servo.h>
 
+/*Servo motor responsible for opening the compartment*/
 Servo petGate;
 int gateStart = 45;
 int gateEnd = 120;
