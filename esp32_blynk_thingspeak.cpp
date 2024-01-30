@@ -9,7 +9,8 @@
 #include <Servo.h>
 #include <ThingSpeak.h>
 
-Servo petGate; // Servo motor responsible for opening the compartment
+/*Servo motor responsible for opening the compartment*/
+Servo petGate; 
 int gateStart = 45;
 int gateEnd = 120;
 int gateOpenTime = 200;
